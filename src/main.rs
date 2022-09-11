@@ -1,6 +1,6 @@
 use anyhow::{Context, Result};
 use clap::Parser;
-use grrs::find_matches;
+use grrs_spitfire::find_matches;
 use std::path::PathBuf;
 use std::{fs::File, io::BufReader};
 
