@@ -1,0 +1,18 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+authors = ["Murad Bashirov <carlsonmu@gmail.com>"]
+license = "MIT"
+description = "tool to search files"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.64"
+clap = { version = "3.2.20", features = ["derive"] }
+
+[dev-dependencies]
+assert_cmd = "2.0.4"
+assert_fs = "1.0.7"
+predicates = "2.1.1"
